@@ -1,0 +1,11 @@
+/*
+    bg: background-color: rgb(237, 230, 233);
+    green: 0, 147, 81
+*/
+
+body {
+    background-color: rgb(237, 230, 233);
+}
+.navbar {
+    background-color: rgb(0, 147, 81);
+}
