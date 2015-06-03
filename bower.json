@@ -1,0 +1,21 @@
+{
+  "name": "Trexit",
+  "version": "0.1.0",
+  "authors": [
+    "marklabenski <mark.labenski@gmail.com>"
+  ],
+  "description": "Trexit info website",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Bootflat": "~2.0.4",
+    "requirejs": "~2.1.18"
+  }
+}
