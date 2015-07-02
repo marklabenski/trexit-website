@@ -19,6 +19,7 @@
     "requirejs": "~2.1.18",
     "move.js": "~0.3.3",
     "skrollr": "~0.6.30",
-    "skrollr-stylesheets": "~1.0.0"
+    "skrollr-stylesheets": "~1.0.0",
+    "jquery": "~2.1.4"
   }
 }

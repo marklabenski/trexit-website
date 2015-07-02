@@ -1,0 +1,319 @@
+{
+  "Data": [
+    {
+      "Q": "Wie wichtig ist dir die Reaktion anderer auf deine Aktionen?",
+      "A": [
+        {
+          "A": "Egal, solange sie reagieren",
+          "W": {
+            "A": 1,
+            "S": 0,
+            "D": 0
+          }
+        },
+        {
+          "A": "Wichtig, denn meine Aktionen sollten bestimmte Reaktionen zur Folge haben",
+          "W": {
+            "A": 0,
+            "S": 1,
+            "D": 1
+          }
+        }
+      ]
+    },
+    {
+      "Q": "Was ist die Motivation hinter deinen Aktionen?",
+      "A": [
+        {
+          "A": "Die Reaktionen anderer",
+          "W": {
+            "A": 1,
+            "S": 1,
+            "D": 0
+          }
+        },
+        {
+          "A": "Dampf ablassen",
+          "W": {
+            "A": 0,
+            "S": 0,
+            "D": 1
+          }
+        }
+      ]
+    },
+    {
+      "Q": "Ist es dir Wichtig das andere über deine Aktionen lachen/erfreut sind?",
+      "A": [
+        {
+          "A": "Ja, ich mache es nur zum Spaß",
+          "W": {
+            "A": 0,
+            "S": 1,
+            "D": 0
+          }
+        },
+        {
+          "A": "Nein, meine Aktionen haben einen anderen Hintergrund",
+          "W": {
+            "A": 1,
+            "S": 0,
+            "D": 1
+          }
+        }
+      ]
+    },
+    {
+      "Q": "Wie sehr trifft die Aussage: “Wer keine Ahnung hat, sollte wenigstens Verwirrung stiften.” auf dich zu?",
+      "A": [
+        {
+          "A": "Sehr",
+          "W": {
+            "A": 0,
+            "S": 1,
+            "D": 1
+          }
+        },
+        {
+          "A": "Gar nicht/weniger",
+          "W": {
+            "A": 1,
+            "S": 1,
+            "D": 0
+          }
+        }
+      ]
+    },
+    {
+      "Q": "Ist es dir wichtig selbst auf die Reaktionen andere ein zu gehen?",
+      "A": [
+        {
+          "A": "Ja, wenn sie nicht beleidigend o.ä. sind",
+          "W": {
+            "A": 1,
+            "S": 1,
+            "D": 0
+          }
+        },
+        {
+          "A": "Nein",
+          "W": {
+            "A": 0,
+            "S": 0,
+            "D": 1
+          }
+        }
+      ]
+    },
+    {
+      "Q": "Wie wichtig ist dir, dass viele deine Aktionen wahrnehmen?",
+      "A": [
+        {
+          "A": "Sehr, nur darum geht es",
+          "W": {
+            "A": 1,
+            "S": 0,
+            "D": 0
+          }
+        },
+        {
+          "A": "Gar nicht/weniger",
+          "W": {
+            "A": 0,
+            "S": 1,
+            "D": 1
+          }
+        }
+      ]
+    },
+    {
+      "Q": "Nimmst du deine eigenen Aktionen ernst?",
+      "A": [
+        {
+          "A": "Mal mehr, mal weniger",
+          "W": {
+            "A": 1,
+            "S": 1,
+            "D": 0
+          }
+        },
+        {
+          "A": "Eher nicht",
+          "W": {
+            "A": 0,
+            "S": 1,
+            "D": 1
+          }
+        }
+      ]
+    },
+    {
+      "Q": "Nimmst du die Reaktionen anderer ernst?",
+      "A": [
+        {
+          "A": "Ja, fast immer",
+          "W": {
+            "A": 1,
+            "S": 1,
+            "D": 0
+          }
+        },
+        {
+          "A": "Eher nicht",
+          "W": {
+            "A": 0,
+            "S": 1,
+            "D": 1
+          }
+        }
+      ]
+    },
+    {
+      "Q": "Siehst du dich selbst eher als Unterhalter?",
+      "A": [
+        {
+          "A": "Ja, unbedingt",
+          "W": {
+            "A": 0,
+            "S": 1,
+            "D": 0
+          }
+        },
+        {
+          "A": "Nein, nicht zwingend",
+          "W": {
+            "A": 1,
+            "S": 0,
+            "D": 1
+          }
+        }
+      ]
+    },
+    {
+      "Q": "Nutzt du deinen echten Namen, wenn du dich bei einem sozialen Netzwerk anmeldest?",
+      "A": [
+        {
+          "A": "Ja",
+          "W": {
+            "A": 1,
+            "S": 1,
+            "D": 0
+          }
+        },
+        {
+          "A": "Nein",
+          "W": {
+            "A": 0,
+            "S": 0,
+            "D": 1
+          }
+        }
+      ]
+    },
+    {
+      "Q": "Würdest du eher einen erfundenen Namen benutzen oder dich als Jemand anderes aus geben, wenn du dich bei einem sozialen Netzwerk anmeldest?",
+      "A": [
+        {
+          "A": "Ich benutze eher einen erfundenen Namen",
+          "W": {
+            "A": 1,
+            "S": 1,
+            "D": 1
+          }
+        },
+        {
+          "A": "Ich gebe mich eher als Jemand anderes aus",
+          "W": {
+            "A": 0,
+            "S": 0.5,
+            "D": 1
+          }
+        }
+      ]
+    },
+    {
+      "Q": "Du siehst wie einem Kind ein Lutscher runter fällt, wie würdest du eher reagieren? Ich würde eher ...",
+      "A": [
+        {
+          "A": "... den Lutscher wegtreten",
+          "W": {
+            "A": 0,
+            "S": 0.5,
+            "D": 1
+          }
+        },
+        {
+          "A": "... das Kind auslachen und ggf. auf es zeigen",
+          "W": {
+            "A": 0.5,
+            "S": 1,
+            "D": 0
+          }
+        }
+      ]
+    },
+    {
+      "Q": "Du bist unterwegs und siehst einen Reporter der gefilmt wird, was würdest du eher tun?",
+      "A": [
+        {
+          "A": "Ich würde eher im Hintergrund mein T-Shirt ausziehen und damit herum wedeln",
+          "W": {
+            "A": 1,
+            "S": 1,
+            "D": 0
+          }
+        },
+        {
+          "A": "Ich würde eher das Mikrophon des Reporters klauen, damit weglaufen und irgendetwas hinein brüllen",
+          "W": {
+            "A": 1,
+            "S": 0,
+            "D": 1
+          }
+        }
+      ]
+    },
+    {
+      "Q": "Du bist auf einer öffentlichen Toilette und wirst von deinem Kabinennachbarn nach Klopapier gefragt. Würdest du eher ...",
+      "A": [
+        {
+          "A": "... sagen, dass du ihm welches gibst, aber es nicht tun",
+          "W": {
+            "A": 0,
+            "S": 0,
+            "D": 1
+          }
+        },
+        {
+          "A": "... immer wieder antäuschen und es ihm am ende doch geben",
+          "W": {
+            "A": 0,
+            "S": 1,
+            "D": 0
+          }
+        }
+      ]
+    },
+    {
+      "Q": "Du bist im Kino und gelangweilt vom Film, was  würdest du eher tun?",
+      "A": [
+        {
+          "A": "An ruhigen/spannenden Stellen zwischenrufen",
+          "W": {
+            "A": 1,
+            "S": 1,
+            "D": 0
+          }
+        },
+        {
+          "A": "Spoilern",
+          "W": {
+            "A": 1,
+            "S": 0,
+            "D": 1
+          }
+        }
+      ]
+    }
+  ]
+}

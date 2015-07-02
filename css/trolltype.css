@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Comic Neue';
+    src: url("font/ComicNeue-Regular.eot");
+    /* IE9 Compat Modes */
+    src: url("font/ComicNeue-Regular.eot?#iefix") format("embedded-opentype"), url("font/ComicNeue-Regular.woff") format("woff"), url("font/ComicNeue-Regular.ttf") format("truetype");
+    /* Safari, Android, iOS */
+    font-weight: 300;
+}
+#ttt {
+    margin-top:30vh;
+    position: relative;
+}
+.card {
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40vh;
+    min-height: 400px;
+    background: #009250;
+    color: #E4C9A5;
+    font-size: 20px;
+    font-family: "Comic Neue", sans-serif;
+    font-weight: 300;
+    
+    border-radius: 20px;
+    overflow: hidden;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.answer {
+    cursor: pointer;
+}
+
+.answer:hover {
+    background: #3E916A;
+}
+
+.result, .answer {
+    background: #009250;
+    height: 33%;
+  
+}
+
+#question {
+    height: 34%;
+    background: #007F41;
+}
+
+#question, .answer, .result {
+    display: table;
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+#question div, .answer div, .result div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#question div div, .answer div div, .result div div {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    text-align: center;
+    padding: 10px;
+}
+
+#resulttable {
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.progress_bar {
+    display: block!important;
+    text-shadow: none;
+    position: relative;
+    left: 5px;
+    line-height: 0;
+    /*width: 130px;*/
+    margin: 0!important;
+    margin-right: 5px!important;
+    font-size: 14px;
+    color: black;
+    overflow: hidden;
+}
+
+#bar_a {
+    background: #64AF64;
+}
+
+#bar_s {
+    background: #FFC864;
+}
+
+#bar_d {
+    background: #C8644B;
+}
+
+#link_restart {
+    color: #D8AC72;
+}
+
+#link_restart:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
