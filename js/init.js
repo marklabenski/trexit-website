@@ -19,7 +19,7 @@ requirejs(["move.js/move.min", "skrollr/skrollr.min", 'js/trolltype'], function(
 
 
     skrollr.init({
-        smoothScrolling: false,
+        
         easing: 'swing',
         smoothScrollingDuration: 0,
         render: function (data) {
