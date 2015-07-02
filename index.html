@@ -3,10 +3,11 @@
 <head lang="de">
     <meta charset="UTF-8">
     <title>TREXIT Association</title>
-    
-    <script type="application/javascript" src="bower_components/requirejs/require.js"></script>
-    <link rel="stylesheet" type="text/css" href="bower_components/Bootflat/css/site.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <script type="application/javascript" data-main="js/init" src="bower_components/requirejs/require.js"></script>
+    <link rel="stylesheet" type="text/css" href="bower_components/Bootflat/css/site.min.css" data-skrollr-stylesheet/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-custom" role="navigation">
@@ -27,13 +28,52 @@
         </div>
     </div>
 </nav>
-<div class="container">
-    <div class="row">
+<div class="container" id="scrollr-body">
+    <section>
+    <div class="row first">
         <div class="col-md-4"></div>
-        <div class="col-md-4"><img src="img/logo.svg" width="100%"></div>
-        <div class="col-md-4"></div>
+        <div class="col-md-4 logo-col" style="height: 400px">
+            <img src="img/trexit_logo_left.svg" class="trexit-logo logo-left"
+                 data-0="-webkit-transform: rotateY(0deg) translateX(0px); left:-30px; position:relative;"
+                 data-50="-webkit-transform: rotateY(180deg) translateX(0px); left:-30px; position:relative;"
+                 data-180="-webkit-transform: rotateY(180deg) translateX(1200px); left:-4px; position:fixed;"
+                 data-290="-webkit-transform: rotateY(180deg) translateX(0px); left:-4px; position:fixed;">
+            <img src="img/trexit_logo_right.svg" class="trexit-logo logo-right"
+                 data-0="-webkit-transform: rotateY(0deg) translateX(0px)"
+                 data-50="-webkit-transform: rotateY(-180deg) translateX(0px); right:30px; position:relative;"
+                 data-180="-webkit-transform: rotateY(-180deg) translateX(-1200px); right:-4px; position:fixed;"
+                 data-290="-webkit-transform: rotateY(-180deg) translateX(0px); right:-4px; position:fixed;">
+        </div>
+        <div class="col-md-4">
+            
+        </div>
     </div>
-    
+    <div class="row trexit-main-buttons">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4">
+                    <a class="troll-color trexit-button">
+                        <span>Was ist ein Troll?</span>
+                      
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a class="human-color trexit-button">
+                        <span>Wie wir dir helfen können</span>
+          
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a class="troll-color trexit-button">
+                        <span>Welcher Troll Typ bin ich?</span>
+                        
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </section>
 </div>
 
 
